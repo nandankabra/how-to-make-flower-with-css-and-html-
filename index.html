@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Flower</title>
+
+        <style>
+        .parent{
+            width: 500px;
+            height: 500px;
+            position: relative;
+            margin: 150px auto;
+        
+        }
+        .parent > div{
+            position: absolute;
+        }
+        .c{
+            width: 250px;
+            height: 250px;
+            transform-origin: right bottom;
+            border-bottom-left-radius: 250px;
+            border-top-right-radius:250px ;
+            opacity: 0.5;
+        }
+        #p1:hover .parent{
+            animation: flower 5s linear 0s infinite;
+        }
+        @keyframes flower {
+            0%{
+                transform: rotateZ(0deg);
+            }
+            100%{
+                transform: rotateZ(359deg);
+            }
+            
+        }
+        .l1{
+            background: #ff4000;
+            transform: rotateZ(5.625deg);
+        }
+        .l2{
+            background: 	#ff8000;
+            transform: rotateZ(11.25deg);
+        }
+        .l3{
+            background: red;
+            transform: rotateZ(16.875deg);
+        }
+        .l4{
+            background: 	#ffbf00;
+            transform: rotateZ(23.5deg);
+        }
+        .l5{
+            background: #ffff00;
+            transform: rotateZ(29.125deg);
+        }
+        .l6{
+            background: #bfff00;
+            transform: rotateZ(34.75deg);
+        }
+        .l7{
+            background: #80ff00;
+            transform: rotateZ(40.375deg);
+        }
+        .l8{
+            background: #00bfff;
+            transform: rotateZ(46deg);
+        }
+        .l9{
+            background: #0080ff;
+            transform: rotateZ(51.625deg);
+        }
+        .l10{
+            background: #0040ff;
+            transform: rotateZ(57.25deg);
+        }
+        .l11{
+            background: #4000ff;
+            transform: rotateZ(62.875deg);
+        }
+        .l12{
+            background: #bf00ff;
+            transform: rotateZ(68.5deg);
+        }
+        .l13{
+            background: #ff00ff;
+            transform: rotateZ(74.125deg);
+        }
+        .l14{
+            background:  #800080;
+            transform: rotateZ(79.75deg);
+        }
+        .l15{
+            background: #7FFFD4;
+            transform: rotateZ(85.375deg);
+        }
+        .l16{
+            background: #5F9EA0;
+            transform: rotateZ(91deg);
+        }
+        .l17{
+            background: #FFEBCD;
+            transform: rotateZ(96.625deg);
+        }
+        .l18{
+            background: #008B8B;
+            transform: rotateZ(102.25deg);
+        }
+        .l19{
+            background: #B8860B;
+            transform: rotateZ(107.875deg);
+        }
+        .l20{
+            background: #00008B;
+            transform: rotateZ(113.5deg);
+        }
+        .l21{
+            background: #A9A9A9;
+            transform: rotateZ(119.125deg);
+        }
+        .l22{
+            background: #006400;
+            transform: rotateZ(124.75deg);
+        }
+        .l23{
+            background: #A9A9A9;
+            transform: rotateZ(130.375deg);
+        }
+        .l24{
+            background: #9932CC;
+            transform: rotateZ(136deg);
+        }
+        .l25{
+            background: #8B008B;
+            transform: rotateZ(141.625deg);
+        }
+        .l26{
+            background: #556B2F;
+            transform: rotateZ(147.25deg);
+        }
+        .l27{
+            background: #BDB76B;
+            transform: rotateZ(152.875deg);
+        }
+        .l28{
+            background: #FF8C00;
+            transform: rotateZ(158.5deg);
+        }
+        .l29{
+            background: #9932CC;
+            transform: rotateZ(164.125deg);
+        }
+        .l30{
+            background: #8B0000;
+            transform: rotateZ(169.75deg);
+        }
+        .l31{
+            background: #E9967A;
+            transform: rotateZ(175.375deg);
+        }
+        .l32{
+            background: #8FBC8F;
+            transform: rotateZ(181deg);
+        }
+        .l3{
+            background: #483D8B;
+            transform: rotateZ(186.625deg);
+        }
+        .l34{
+            background: #FF1493;
+            transform: rotateZ(192.25deg);
+        }
+        .l35{
+            background: #9400D3;
+            transform: rotateZ(197.875deg);
+        }
+        .l36{
+            background: #00BFFF;
+            transform: rotateZ(203.5deg);
+        }
+        .l37{
+            background: #2F4F4F;
+            transform: rotateZ(209.125deg);
+        }
+        .l38{
+            background: #00CED1;
+            transform: rotateZ(214.75deg);
+        }
+        .l39{
+            background: #B22222;
+            transform: rotateZ(220.375deg);
+        }
+        .l40{
+            background: #228B22;
+            transform: rotateZ(226deg);
+        }
+        .l41{
+            background: #FFD700;
+            transform: rotateZ(231.625deg);
+        }
+        .l42{
+            background: #FF69B4;
+            transform: rotateZ(237.25deg);
+        }
+        .l43{
+            background: #FFF0F5;
+            transform: rotateZ(242.875deg);
+        }
+        .l44{
+            background: #4B0082;
+            transform: rotateZ(248.5deg);
+        }
+        .l45{
+            background: #7CFC00;
+            transform: rotateZ(254.125deg);
+        }
+        .l46{
+            background: #ADD8E6;
+            transform: rotateZ(259.75deg);
+        }
+        .l47{
+            background: #FAFAD2;
+            transform: rotateZ(265.375deg);
+        }
+        .l48{
+            background: #90EE90;
+            transform: rotateZ(271deg);
+        }
+        .l49{
+            background: #FFB6C1;
+            transform: rotateZ(576.625deg);
+        }
+        .l50{
+            background: #D3D3D3;
+            transform: rotateZ(282.25deg);
+        }
+        .l51{
+            background: #778899;
+            transform: rotateZ(287.875deg);
+        }
+        .l52{
+            background: #00FF00;
+            transform: rotateZ(293.5deg);
+        }
+        .l53{
+            background: #FF00FF;
+            transform: rotateZ(299.125deg);
+        }
+        .l54{
+            background: #800000;
+            transform: rotateZ(304.75deg);
+        }
+        .l55{
+            background: #0000CD;
+            transform: rotateZ(310.375deg);
+        }
+        .l56{
+            background: #3CB371;
+            transform: rotateZ(316deg);
+        }
+        .l57{
+            background: #48D1CC;
+            transform: rotateZ(321.625deg);
+        }
+        .l58{
+            background: #C71585;
+            transform: rotateZ(327.25deg);
+        }
+        .l59{
+            background: #191970;
+            transform: rotateZ(332.875deg);
+        }
+        .l60{
+            background: #FFDEAD;
+            transform: rotateZ(338.5deg);
+        }
+        .l61{
+            background: #98FB98;
+            transform: rotateZ(344.125deg);
+        }
+        .l62{
+            background: #FF4500;
+            transform: rotateZ(349.753deg);
+        }
+        .l63{
+            background: #800080;
+            transform: rotateZ(355.378deg);
+        }
+        .l64{
+            background: #CD853F;
+            transform: rotateZ(361.003deg);
+        }
+    </style>        
+    </head>
+    <body id="p1">
+        <div class="parent">
+            <div class=" c l1"></div>
+            <div class=" c l2"></div>
+            <div class=" c l3"></div>
+            <div class=" c l4"></div>
+            <div class=" c l5"></div>
+            <div class=" c l6"></div>
+            <div class=" c l7"></div>
+            <div class=" c l8"></div>
+            <div class=" c l9"></div>
+            <div class=" c l10"></div>
+            <div class=" c l11"></div>
+            <div class=" c l12"></div>
+            <div class=" c l13"></div>
+            <div class=" c l14"></div>
+            <div class=" c l15"></div>
+            <div class=" c l16"></div>
+            <div class=" c l17"></div>
+            <div class=" c l18"></div>
+            <div class=" c l19"></div>
+            <div class=" c l20"></div>
+            <div class=" c l21"></div>
+            <div class=" c l22"></div>
+            <div class=" c l23"></div>
+            <div class=" c l24"></div>
+            <div class=" c l25"></div>
+            <div class=" c l26"></div>
+            <div class=" c l27"></div>
+            <div class=" c l28"></div>
+            <div class=" c l29"></div>
+            <div class=" c l30"></div>
+            <div class=" c l31"></div>
+            <div class=" c l32"></div>
+            <div class=" c l33"></div>
+            <div class=" c l34"></div>
+            <div class=" c l35"></div>
+            <div class=" c l36"></div>
+            <div class=" c l37"></div>
+            <div class=" c l38"></div>
+            <div class=" c l39"></div>
+            <div class=" c l40"></div>
+            <div class=" c l40"></div>
+            <div class=" c l41"></div>
+            <div class=" c l42"></div>
+            <div class=" c l43"></div>
+            <div class=" c l44"></div>
+            <div class=" c l45"></div>
+            <div class=" c l46"></div>
+            <div class=" c l47"></div>
+            <div class=" c l48"></div>
+            <div class=" c l49"></div>
+            <div class=" c l50"></div>
+            <div class=" c l50"></div>
+            <div class=" c l51"></div>
+            <div class=" c l52"></div>
+            <div class=" c l53"></div>
+            <div class=" c l54"></div>
+            <div class=" c l55"></div>
+            <div class=" c l56"></div>
+            <div class=" c l57"></div>
+            <div class=" c l58"></div>
+            <div class=" c l59"></div>
+            <div class=" c l60"></div>
+            <div class=" c l61"></div>
+            <div class=" c l62"></div>
+            <div class=" c l63"></div>            
+            <div class=" c l64"></div>            
+        </div>     
+    </body>
+</html>
